@@ -8,6 +8,7 @@ use std::path::Path;
 use std::ptr::{null, null_mut};
 use std::slice;
 
+extern crate crfsuite_sys;
 use crfsuite_sys::crfsuite_create_instance_from_memory;
 use crfsuite_sys::floatval_t;
 use failure::bail;
